@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ 
+ <title>5 TECH</title>
+
+  <style>
+  
+  body {
+ 
+     font-family: Arial, sans-serif;
+
+      background-color: #f4f6f9;
+ 
+     display: flex;
+
+      justify-content: center;
+  
+    align-items: center;
+
+      min-height: 100vh;
+
+      margin: 0;
+
+      padding: 20px;
+
+    }
+
+
+    .grid {
+ 
+     display: grid;
+   
+   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+
+      gap: 20px;
+     
+ max-width: 850px;
+    
+  width: 100%;
+    
+}
+
+
+    .card {
+ 
+     background: #ffffff;
+
+      border-radius: 12px;
+   
+   padding: 24px 16px;
+  
+    text-align: center;
+ 
+     text-decoration: none;
+      
+color: #222222;
+     
+ box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+   
+   transition: transform 0.2s ease, box-shadow 0.2s ease;
+   
+ }
+
+  
+  .card:hover {
+
+      transform: translateY(-4px);
+
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  
+  }
+
+  
+  .card img {
+  
+    width: 64px;
+    
+  height: 64px;
+  
+    object-fit: contain;
+  
+    margin-bottom: 12px;
+    
+}
+
+    
+.card span {
+    
+  display: block;
+
+      font-size: 16px;
+
+      font-weight: bold;
+
+    }
+  
+</style>
+
+</head>
+
+<body>
+
+  <div class="grid">
+   
+ <!--Youtube-->
+ 
+   <a class="card" href="https://youtube.in" target="_blank" rel="noopener noreferrer">
+ 
+     <img src="https://wikimedia.org" alt="Youtube" />
+   
+   <span>Youtube</span>
+   
+ </a>
+
+   
+ <!-- Google -->
+
+    <a class="card" href="https://www.google.com" target="_blank" rel="noopener noreferrer">
+
+      <img src="https://wikimedia.org" alt="Google" />
+ 
+     <span>Google</span>
+  
+  </a>
+
+   
+ <!-- ChatGPT -->
+    
+<a class="card" href="https://chatgpt.com" target="_blank" rel="noopener noreferrer">
+
+      <img src="https://wikimedia.org" alt="ChatGPT" />
+  
+    <span>ChatGPT</span>
+ 
+   </a>
+
+ 
+   <!-- Gemini -->
+ 
+   <a class="card" href="https://gemini.google.com" target="_blank" rel="noopener noreferrer">
+      
+<img src="https://wikimedia.org" alt="Gemini" />
+
+      <span>Gemini</span>
+   
+ </a>
+
+ <!-- Amazon -->
+
+    <a class="card" href="https://www.amazon.com" target="_blank" rel="noopener noreferrer">
+
+      <img src="https://wikimedia.org" alt="Amazon" />
+ 
+     <span>Amazon</span>
+  
+  </a>
+
+    
+</div>
+
+</body>
+
+</html>
